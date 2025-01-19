@@ -60,14 +60,12 @@ To re-enable these features, use the following commands:
 
 Re-enable Windows Defender:
 powershell
-Copy
-Edit
-powershell set-MpPreference -DisableRealtimeMonitoring $false
+````powershell set-MpPreference -DisableRealtimeMonitoring $false````
+
 Re-enable Windows Firewall:
 cmd
-Copy
-Edit
-netsh firewall set opmode enable
+````netsh firewall set opmode enable````
+
 📄 License
 This script is open-source and distributed under the MIT License.
 Feel free to use, modify, and share it while giving proper credit to the original author.
